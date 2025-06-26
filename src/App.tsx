@@ -36,6 +36,11 @@ function App() {
         <RevealOnScroll>
           <Contact />
         </RevealOnScroll>
+
+        <p className='text-center text-gray-700 text-sm my-10'>
+          Sitio desarrollado en React, TypeScript, TailwindCSS por Antonio Cortés. Ve el código en <a href="https://github.com/cortesantonio/devac-portafolio" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-600">GitHub</a>
+        </p>
+
       </main>
     </div>
   )
