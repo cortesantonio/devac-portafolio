@@ -1,54 +1,58 @@
-# React + TypeScript + Vite
+# 🚀 Portafolio de Antonio Cortés Sotelo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+¡Bienvenido a mi portafolio personal! Aquí podrás conocer mis proyectos, experiencia y habilidades como **Desarrollador Full Stack**. Este sitio está construido con las tecnologías más modernas para ofrecer una experiencia rápida, accesible y atractiva.
 
-Currently, two official plugins are available:
+## ✨ Características principales
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Frontend:** React + TypeScript + Vite
+- **Estilos:** Tailwind CSS y CSS personalizado
+- **Accesibilidad:** Enfoque en buenas prácticas y navegación inclusiva
+- **SEO:** Optimización para buscadores y redes sociales
+- **Responsive:** Diseño adaptable a cualquier dispositivo
+- **Despliegue:** Firebase Hosting
 
-## Expanding the ESLint configuration
+## 📂 Estructura del proyecto
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+```
+/
+ ├─ public/           # Recursos estáticos (imágenes, PDF, favicon)
+ ├─ src/
+ │   ├─ components/   # Componentes principales (About, Projects, Contact, etc.)
+ │   ├─ styles/       # Archivos de estilos (Tailwind, personalizados)
+ │   └─ App.tsx       # Componente raíz
+ ├─ index.html        # HTML principal
+ ├─ package.json      # Dependencias y scripts
+ └─ README.md         # Este archivo
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🚦 Scripts principales
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+```bash
+# Instalar dependencias
+npm install
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+# Ejecutar en modo desarrollo
+npm run dev
+
+# Construir para producción
+npm run build
+
+# Previsualizar build
+npm run preview
 ```
+
+## 🌐 Despliegue
+
+El portafolio está desplegado en **Firebase Hosting** para máxima velocidad y disponibilidad.
+
+## 📬 Contacto
+
+¿Te gustaría trabajar conmigo, tienes una idea o simplemente quieres saludar? ¡No dudes en contactarme!
+
+- 📧 [cortesotel@gmail.com](mailto:cortesotel@gmail.com)
+- 💼 [LinkedIn](https://www.linkedin.com/in/antoniocortessotelo/)
+- 🐙 [GitHub](https://github.com/cortesantonio)
+
+---
+
+> Hecho con pasión por la tecnología y el aprendizaje continuo. ¡Gracias por visitar mi portafolio!
