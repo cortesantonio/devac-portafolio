@@ -1,9 +1,9 @@
-
 import Header from './components/Header'
 import About from './components/About'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
 import Resume from './components/Resume'
+import RevealOnScroll from './components/RevealOnScroll'
 import "./App.css"
 
 export const paleta = {
@@ -24,10 +24,18 @@ function App() {
         <Header />
       </div>
       <main className="xl:w-8/12 w-11/12">
-        <About />
-        <Projects />
-        <Resume />
-        <Contact />
+        <RevealOnScroll>
+          <About />
+        </RevealOnScroll>
+        <RevealOnScroll>
+          <Projects />
+        </RevealOnScroll>
+        <RevealOnScroll>
+          <Resume />
+        </RevealOnScroll>
+        <RevealOnScroll>
+          <Contact />
+        </RevealOnScroll>
       </main>
     </div>
   )
