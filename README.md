@@ -1,4 +1,4 @@
-# 🚀 Portafolio de Antonio Cortés Sotelo
+# 🚀 Portafolio de Antonio Cortés 
 
 ¡Bienvenido a mi portafolio personal! Aquí podrás conocer mis proyectos, experiencia y habilidades como **Desarrollador Full Stack**. Este sitio está construido con las tecnologías más modernas para ofrecer una experiencia rápida, accesible y atractiva.
 
