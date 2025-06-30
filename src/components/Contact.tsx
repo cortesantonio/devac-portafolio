@@ -16,7 +16,7 @@ const Contact: React.FC = () => (
           ¿Tienes una idea, proyecto o simplemente quieres saludar? <strong>¡Estoy disponible para nuevas oportunidades y colaboraciones!</strong> No dudes en escribirme, responderé lo antes posible.
         </p>
         <div className="flex flex-col gap-2 text-gray-700 text-base items-center w-full">
-          <div className="flex items-center gap-2 justify-center"><FaMapMarkerAlt className="text-amber-600" aria-label="Ubicación" />Curicó, Chile</div>
+          <div className="flex items-center gap-2 justify-center"><FaMapMarkerAlt className="text-amber-600" aria-label="Ubicación" />Chile</div>
           <div className="flex items-center gap-2 justify-center"><SlEnvolope className="text-amber-600" aria-label="Correo electrónico" /><a className='hover:underline' href="mailto:cortesotel@gmail.com">cortesotel@gmail.com</a></div>
         </div>
         <div className="flex gap-3 mt-3 justify-center" role="list" aria-label="Redes sociales">
