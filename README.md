@@ -41,7 +41,7 @@ npm run build
 npm run preview
 ```
 
-##🌐 Visita mi portafolio acá
+## 🌐 Visita mi portafolio acá
 
 https://dev-ac.site/
 
